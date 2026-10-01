@@ -25,7 +25,7 @@ kworb_url = (
     "6wWVKhxIU2cEi0K81v7HvP_songs.html"
 )
 
-api_key = input("Enter your Last.fm API key: ").strip()
+api_key = input("Last.fm API key: ").strip()
 
 if not api_key:
     raise ValueError("Last.fm API key is required.")
